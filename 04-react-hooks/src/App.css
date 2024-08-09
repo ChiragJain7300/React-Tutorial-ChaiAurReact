@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: orangered;
+}
+.generatorCont {
+  width: 50vw;
+  background-color: rgb(3, 3, 100);
+  border-radius: 15px;
+  padding: 30px;
+}
+.inputRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.inputRow button {
+  background-color: red;
+  text-transform: uppercase;
+  border-radius: 0 12px 12px 0;
+}
+#password {
+  flex: 1;
+  border-radius: 12px;
+  padding-left: 15px;
+  background-color: white;
+  color: orangered;
+  font-size: 24px;
+  border-right: none;
+  margin-right: -10px;
+}
+.featureRow {
+  display: flex;
+  font-size: 20px;
+}
+.featureRow label {
+  margin-right: 15px;
+}

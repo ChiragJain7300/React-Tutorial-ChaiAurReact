@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.imgCont {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+.imgCont img {
+  border-radius: 50%;
+  width: 150px;
+}
+.btn {
+  width: 300px;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black;
+}

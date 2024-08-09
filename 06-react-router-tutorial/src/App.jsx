@@ -1,13 +1,17 @@
 import "./App.css";
-
+import { Link } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Home from "./components/Home/Home";
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-5xl font-bold text-amber-800 uppercase">
-          React Router Tutorial
-        </h1>
-      </div>  
+      <div className="h-screen">
+        <Header />
+        <Home />
+
+        <Footer />
+      </div>
     </>
   );
 }
